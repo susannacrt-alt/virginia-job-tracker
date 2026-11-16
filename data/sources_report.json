@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T15:09:30+00:00",
+  "updated": "2026-11-16T15:26:27+00:00",
   "sources": [
     {
       "name": "State Street",
@@ -9,7 +9,7 @@
       "scanned": 0,
       "relevant": 0,
       "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://statestreet.wd1.myworkdayjobs.com/wday/cxs/statestreet/Global/jobs",
-      "checked": "2026-11-16T15:09:30+00:00"
+      "checked": "2026-11-16T15:26:27+00:00"
     },
     {
       "name": "Deutsche Bank",
@@ -19,17 +19,17 @@
       "scanned": 0,
       "relevant": 0,
       "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://db.wd3.myworkdayjobs.com/wday/cxs/db/DBWebsite/jobs",
-      "checked": "2026-11-16T15:09:30+00:00"
+      "checked": "2026-11-16T15:26:27+00:00"
     },
     {
       "name": "Capco",
       "url": "https://job-boards.greenhouse.io/capco",
       "platform": "Greenhouse",
       "status": "ok",
-      "scanned": 696,
+      "scanned": 697,
       "relevant": 7,
       "error": "",
-      "checked": "2026-11-16T15:09:30+00:00"
+      "checked": "2026-11-16T15:26:27+00:00"
     },
     {
       "name": "Scalapay",
@@ -39,7 +39,7 @@
       "scanned": 10,
       "relevant": 0,
       "error": "",
-      "checked": "2026-11-16T15:09:30+00:00"
+      "checked": "2026-11-16T15:26:27+00:00"
     },
     {
       "name": "Satispay",
@@ -47,9 +47,9 @@
       "platform": "Ashby",
       "status": "ok",
       "scanned": 76,
-      "relevant": 14,
+      "relevant": 5,
       "error": "",
-      "checked": "2026-11-16T15:09:30+00:00"
+      "checked": "2026-11-16T15:26:27+00:00"
     },
     {
       "name": "Qonto",
@@ -57,9 +57,9 @@
       "platform": "Ashby",
       "status": "ok",
       "scanned": 54,
-      "relevant": 6,
+      "relevant": 0,
       "error": "",
-      "checked": "2026-11-16T15:09:30+00:00"
+      "checked": "2026-11-16T15:26:27+00:00"
     }
   ]
 }

@@ -71,6 +71,21 @@ def read_json(path, fallback):
         return fallback
 
 
+def load_config():
+    """Legge config/sources.json perdonando le virgole in più; segnala gli altri errori."""
+    try:
+        text = CONFIG.read_text(encoding="utf-8-sig")
+    except OSError:
+        return {}, "Il file config/sources.json non esiste."
+    for attempt in (text, re.sub(r",(\s*[\]}])", r"\1", text)):
+        try:
+            return json.loads(attempt), ""
+        except json.JSONDecodeError as exc:
+            error = exc
+    return {}, (f"Il file config/sources.json contiene un errore alla riga {error.lineno}: "
+                "controlla virgole, parentesi e virgolette in quel punto (puoi incollarlo su jsonlint.com).")
+
+
 def write_json(path, payload):
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -335,11 +350,21 @@ def check_pages(config, previous):
 # ---------------------------------------------------------------- principale
 
 def main():
-    config = read_json(CONFIG, {})
+    config, config_error = load_config()
     archive = {j["id"]: j for j in read_json(DATA, []) if j.get("id")}
     report, ok_companies, scanned, today = [], set(), 0, 0
+    if config_error:
+        report.append({"name": "File di configurazione", "url": "config/sources.json",
+                       "platform": "config/sources.json", "status": "errore", "scanned": 0,
+                       "relevant": 0, "error": config_error, "checked": NOW})
+        print("ERRORE:", config_error)
+        # Con la configurazione illeggibile non si tocca nulla: restano i dati dell'ultima scansione buona.
+        write_json(REPORT, {"updated": NOW, "sources": report})
+        return
 
-    for name, url, platform, params in company_sources(config):
+    sources = company_sources(config)
+    configured = {src[0] for src in sources}
+    for name, url, platform, params in sources:
         row = {"name": name, "url": url, "platform": LABELS.get(platform, "non riconosciuta"),
                "status": "ok", "scanned": 0, "relevant": 0, "error": "", "checked": NOW}
         if platform not in FETCHERS:
@@ -382,6 +407,8 @@ def main():
     cutoff = NOW_DT - timedelta(days=NEW_DAYS)
     result = []
     for job in archive.values():
+        if job.get("company") not in configured:   # azienda tolta da config/sources.json
+            continue
         job["description"] = plain(job.get("description"))[:1800]
         if not relevance(job):          # ripulisce l'archivio con i criteri aggiornati
             continue

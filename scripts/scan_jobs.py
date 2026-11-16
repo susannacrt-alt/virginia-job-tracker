@@ -12,6 +12,7 @@ import hashlib
 import html
 import json
 import re
+import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
@@ -52,8 +53,12 @@ FORBIDDEN = re.compile(
 PAGE_TERMS = ["specialist", "specialista", "analyst", "analista", "officer", "manager",
               "register", "agm", "addetto", "operations", "titoli", "back office", "custody"]
 GEO = ["torino", "turin", "piemonte", "milano", "milan", "lombardia", "liguria",
-       "genova", "italy", "italia", "remote", "remoto"]
-WORKDAY_QUERIES = ["Milan", "Milano", "Turin", "Torino", "Italy"]
+       "genova", "italy", "italia", "biella", "novara", "vercelli", "asti", "alba",
+       "cuneo", "alessandria", "ivrea", "pinerolo", "moncalieri", "sesto san giovanni",
+       "basiglio", "remote", "remoto"]
+GEO_RE = re.compile(r"\b(" + "|".join(re.escape(g) for g in GEO if g not in ("remote", "remoto")) + r")\b")
+WORKDAY_QUERIES = ["Milan", "Turin", "Italy"]
+WORKDAY_PAUSE = 2.5   # secondi tra una richiesta e l'altra, per non essere bloccati
 
 session = requests.Session()
 session.headers.update(HEADERS)
@@ -91,8 +96,10 @@ def relevance(job):
     strong_desc = len({t for t in STRONG if t in desc})
     if not (in_title or strong_desc >= 2):
         return False
-    where = loc + " " + low(job.get("work_mode"))
-    return any(g in where for g in GEO)
+    if GEO_RE.search(loc):
+        return True
+    remote = "remot" in loc or "remot" in low(job.get("work_mode"))
+    return remote and loc.replace("remote", "").replace("remoto", "").strip(" ,-") == ""
 
 
 def score(job):
@@ -110,6 +117,19 @@ def score(job):
     if any(x in title for x in ["specialist", "analyst", "officer", "manager", "specialista"]):
         points += 5
     return min(100, points), hits[:8]
+
+
+def call(method, url, **kwargs):
+    """Richiesta con pausa e nuovi tentativi se il sito risponde 'troppe richieste'."""
+    for attempt in range(4):
+        r = session.request(method, url, timeout=TIMEOUT, **kwargs)
+        if r.status_code not in (429, 503):
+            r.raise_for_status()
+            return r
+        wait = int(r.headers.get("Retry-After", "0") or 0) or 20 * (attempt + 1)
+        time.sleep(min(wait, 90))
+    r.raise_for_status()
+    return r
 
 
 # ---------------------------------------------------------------- piattaforme
@@ -180,11 +200,11 @@ def ashby(p, name):
 def workday(p, name):
     api = f"{p['base']}/wday/cxs/{p['tenant']}/{p['site']}"
     found = {}
-    for query in WORKDAY_QUERIES:
-        for offset in range(0, 200, 20):
-            r = session.post(f"{api}/jobs", timeout=TIMEOUT,
-                             json={"appliedFacets": {}, "limit": 20, "offset": offset, "searchText": query})
-            r.raise_for_status()
+    for query in ([""] if p.get("all") else WORKDAY_QUERIES):
+        for offset in range(0, 400, 20):
+            time.sleep(WORKDAY_PAUSE)
+            r = call("POST", f"{api}/jobs", headers={"Accept": "application/json"},
+                     json={"appliedFacets": {}, "limit": 20, "offset": offset, "searchText": query})
             postings = r.json().get("jobPostings", [])
             for j in postings:
                 if j.get("externalPath"):
@@ -197,9 +217,11 @@ def workday(p, name):
                "url": f"{p['base']}/{p['site']}{path}", "description": "",
                "published_at": j.get("postedOn")}
         # La descrizione si scarica solo per gli annunci in zona con titolo pertinente.
-        if any(g in low(row["location"]) for g in GEO) or "locations" in low(row["location"]):
+        near = any(g in low(row["location"]) for g in GEO) or "locations" in low(row["location"])
+        if near and any(t in low(row["title"]) for t in TERMS + STRONG):
             try:
-                d = session.get(f"{api}{path}", timeout=TIMEOUT).json().get("jobPostingInfo", {})
+                time.sleep(WORKDAY_PAUSE)
+                d = call("GET", f"{api}{path}", headers={"Accept": "application/json"}).json().get("jobPostingInfo", {})
                 row["description"] = d.get("jobDescription", "")
                 row["location"] = ", ".join(filter(None, [d.get("location")] + (d.get("additionalLocations") or []))) or row["location"]
                 row["contract"] = d.get("timeType")
@@ -243,6 +265,8 @@ def company_sources(config):
     out = []
     for item in config.get("aziende", []):
         platform, params = detect(item.get("url", ""))
+        if item.get("tutti_gli_annunci"):
+            params["all"] = True
         out.append((item.get("name") or item.get("url"), item.get("url", ""), platform, params))
     for item in config.get("greenhouse", []):
         out.append((item.get("name"), item.get("careers_url", ""), "greenhouse", {"token": item.get("token")}))

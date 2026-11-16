@@ -1,6 +1,17 @@
+
 {
-  "greenhouse": [],
-  "lever": [],
+  "greenhouse": [
+    {
+      "name": "Scalapay",
+      "token": "scalapaysrl"
+    }
+  ],
+  "lever": [
+    {
+      "name": "ION Group",
+      "slug": "ion"
+    }
+  ],
   "notes": [
     "Aggiungere solo board pubbliche verificate.",
     "Greenhouse: token della board pubblica.",

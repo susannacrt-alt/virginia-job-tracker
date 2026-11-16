@@ -21,7 +21,7 @@ jobs:
       - run: python scripts/scan_jobs.py
       - name: Commit updated dataset
         run: |
-          if [[ -n "$(git status --porcelain data/jobs.json)" ]]; then
+          if [[ -n "$(git status --porcelain data/)" ]]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add data/jobs.json

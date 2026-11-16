@@ -28,7 +28,8 @@ NOW_DT = datetime.now(timezone.utc)
 NOW = NOW_DT.isoformat(timespec="seconds")
 NEW_DAYS = 7
 TIMEOUT = 30
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; VirginiaJobTracker/2.0)",
+HEADERS = {"User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                          "(KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"),
            "Accept-Language": "it-IT,it;q=0.9,en;q=0.8"}
 
 # Parole chiave. Basta una nel TITOLO, oppure almeno due "forti" nella descrizione.
@@ -136,13 +137,12 @@ def score(job):
 
 def call(method, url, **kwargs):
     """Richiesta con pausa e nuovi tentativi se il sito risponde 'troppe richieste'."""
-    for attempt in range(4):
+    for attempt in range(2):
         r = session.request(method, url, timeout=TIMEOUT, **kwargs)
         if r.status_code not in (429, 503):
             r.raise_for_status()
             return r
-        wait = int(r.headers.get("Retry-After", "0") or 0) or 20 * (attempt + 1)
-        time.sleep(min(wait, 90))
+        time.sleep(10)
     r.raise_for_status()
     return r
 
@@ -214,11 +214,17 @@ def ashby(p, name):
 
 def workday(p, name):
     api = f"{p['base']}/wday/cxs/{p['tenant']}/{p['site']}"
+    wd_headers = {"Accept": "application/json", "Content-Type": "application/json",
+                  "Origin": p["base"], "Referer": f"{p['base']}/{p['site']}"}
+    try:  # prima visita la pagina pubblica, come farebbe un browser (imposta i cookie)
+        session.get(f"{p['base']}/{p['site']}", timeout=TIMEOUT)
+    except requests.RequestException:
+        pass
     found = {}
     for query in ([""] if p.get("all") else WORKDAY_QUERIES):
         for offset in range(0, 400, 20):
             time.sleep(WORKDAY_PAUSE)
-            r = call("POST", f"{api}/jobs", headers={"Accept": "application/json"},
+            r = call("POST", f"{api}/jobs", headers=wd_headers,
                      json={"appliedFacets": {}, "limit": 20, "offset": offset, "searchText": query})
             postings = r.json().get("jobPostings", [])
             for j in postings:
@@ -236,7 +242,7 @@ def workday(p, name):
         if near and any(t in low(row["title"]) for t in TERMS + STRONG):
             try:
                 time.sleep(WORKDAY_PAUSE)
-                d = call("GET", f"{api}{path}", headers={"Accept": "application/json"}).json().get("jobPostingInfo", {})
+                d = call("GET", f"{api}{path}", headers=wd_headers).json().get("jobPostingInfo", {})
                 row["description"] = d.get("jobDescription", "")
                 row["location"] = ", ".join(filter(None, [d.get("location")] + (d.get("additionalLocations") or []))) or row["location"]
                 row["contract"] = d.get("timeType")

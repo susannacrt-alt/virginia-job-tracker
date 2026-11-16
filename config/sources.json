@@ -1,20 +1,27 @@
-
 {
   "greenhouse": [
     {
-      "name": "Scalapay",
-      "token": "scalapaysrl"
+      "name": "Capco",
+      "token": "capco",
+      "careers_url": "https://job-boards.greenhouse.io/capco"
     }
   ],
-  "lever": [
+  "lever": [],
+  "ashby": [
     {
-      "name": "ION Group",
-      "slug": "ion"
+      "name": "Satispay",
+      "board": "satispay",
+      "careers_url": "https://jobs.ashbyhq.com/satispay"
+    },
+    {
+      "name": "Qonto",
+      "board": "qonto",
+      "careers_url": "https://jobs.ashbyhq.com/qonto"
     }
   ],
   "notes": [
-    "Aggiungere solo board pubbliche verificate.",
-    "Greenhouse: token della board pubblica.",
-    "Lever: slug dell'azienda nella pagina jobs Lever."
+    "Fonti incluse solo dopo verifica della board pubblica.",
+    "Société Générale ed Euronext sono monitorate tramite link ufficiali manuali: i loro portali non sono stati inseriti come API pubbliche in questo pacchetto.",
+    "Aggiungere altre aziende solo dopo aver verificato piattaforma, board e risposta API."
   ]
 }

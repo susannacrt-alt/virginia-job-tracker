@@ -1,0 +1,115 @@
+{
+  "aziende": [
+    {
+      "name": "State Street",
+      "url": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global"
+    },
+    {
+      "name": "BNY",
+      "url": "https://bnymellon.wd1.myworkdayjobs.com/en-US/BNYMellonCareers"
+    },
+    {
+      "name": "Deutsche Bank",
+      "url": "https://db.wd3.myworkdayjobs.com/en-US/DBWebsite"
+    },
+    {
+      "name": "Gruppo Sella",
+      "url": "https://sellagroup.wd3.myworkdayjobs.com/ID01",
+      "tutti_gli_annunci": true
+    },
+    {
+      "name": "Nasdaq",
+      "url": "https://nasdaq.wd1.myworkdayjobs.com/en-US/Global_External_Site"
+    },
+    {
+      "name": "LSEG",
+      "url": "https://lseg.wd3.myworkdayjobs.com/en-US/Careers"
+    },
+    {
+      "name": "Broadridge",
+      "url": "https://broadridge.wd5.myworkdayjobs.com/en-US/Careers"
+    },
+    {
+      "name": "SS&C",
+      "url": "https://ssctech.wd1.myworkdayjobs.com/en-US/SSCTechnologies"
+    },
+    {
+      "name": "Apex Group",
+      "url": "https://theapexgroup.wd3.myworkdayjobs.com/en-US/apexgroupcareers"
+    },
+    {
+      "name": "Capco",
+      "url": "https://job-boards.greenhouse.io/capco"
+    },
+    {
+      "name": "Scalapay",
+      "url": "https://job-boards.eu.greenhouse.io/scalapaysrl"
+    },
+    {
+      "name": "Satispay",
+      "url": "https://jobs.ashbyhq.com/satispay"
+    },
+    {
+      "name": "Qonto",
+      "url": "https://jobs.ashbyhq.com/qonto"
+    }
+  ],
+  "pagine": [
+    {
+      "name": "Société Générale Securities Services (Milano, Torino)",
+      "url": "https://careers.societegenerale.com/en/job-offers",
+      "note": "Custody, corporate actions, settlement"
+    },
+    {
+      "name": "Euronext (Euronext Securities Milan, Borsa Italiana)",
+      "url": "https://www.euronext.com/en/about/careers/vacancies",
+      "note": "Register & AGM, corporate actions, compliance"
+    },
+    {
+      "name": "Intesa Sanpaolo - Experienced",
+      "url": "https://group.intesasanpaolo.com/it/careers/posizioni-aperte/experienced",
+      "note": "Torino e Milano, sede centrale; comprende Eurizon"
+    },
+    {
+      "name": "FinecoBank",
+      "url": "https://about.finecobank.com/it/careers/diventa-un-dipendente/",
+      "note": "Milano"
+    },
+    {
+      "name": "Banco BPM",
+      "url": "https://gruppo.bancobpm.it/persone-e-valori/lavora-con-noi/curriculum/",
+      "note": "Milano; portale InRecruiting"
+    },
+    {
+      "name": "Generali Investments",
+      "url": "https://www.generali-investments.com/it/it/institutional/careers/",
+      "note": "Asset management"
+    },
+    {
+      "name": "Amundi Italia",
+      "url": "https://jobs.amundi.com/pages/offre/listeoffre.aspx?lcid=2057&facet_Country=103&showSearchUrl=1",
+      "note": "Asset management, Milano"
+    },
+    {
+      "name": "ING Italia - Milano",
+      "url": "https://careers.ing.com/it/luogo/milano-jobs/2618/3175395-3174618-3173435/4",
+      "note": "Back office titoli, operations"
+    },
+    {
+      "name": "Banca del Piemonte",
+      "url": "https://www.bancadelpiemonte.it/chi-siamo/lavora-con-noi/",
+      "note": "Torino"
+    },
+    {
+      "name": "Banca d'Alba",
+      "url": "https://zinrec.intervieweb.it/bancadalba/it/career",
+      "note": "Piemonte"
+    }
+  ],
+  "istruzioni": [
+    "AZIENDE: incolla nome e URL della pagina carriere. Funziona se l'URL contiene greenhouse.io, lever.co, ashbyhq.com, myworkdayjobs.com o smartrecruiters.com.",
+    "Per aziende italiane su Workday aggiungi \"tutti_gli_annunci\": true, così vengono lette anche sedi come Biella.",
+    "PAGINE: qualsiasi altro sito 'lavora con noi'. Lo script avvisa quando la pagina cambia e mostra i nuovi link pertinenti.",
+    "Dopo ogni modifica avvia 'Daily job scan' da Actions e controlla il riquadro 'Stato delle fonti' nella dashboard."
+  ]
+}

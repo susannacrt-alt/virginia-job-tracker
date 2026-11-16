@@ -12,9 +12,9 @@
     {"name": "ING Italia - Milano", "url": "https://careers.ing.com/it/luogo/milano-jobs/2618/3175395-3174618-3173435/4", "note": "Back office titoli, operations"},
     {"name": "Banca del Piemonte", "url": "https://www.bancadelpiemonte.it/chi-siamo/lavora-con-noi/", "note": "Torino"},
     {"name": "Banca d'Alba", "url": "https://zinrec.intervieweb.it/bancadalba/it/career", "note": "Piemonte"}
-  ],
-     {"name": "Intesa Sanpaolo - Experienced", "url": "https://group.intesasanpaolo.com/it/careers/posizioni-aperte/experienced", "note": "Torino e Milano, sede centrale"}
-  "istruzioni": [
+  {"name": "Intesa Sanpaolo - Experienced", "url": "https://group.intesasanpaolo.com/it/careers/posizioni-aperte/experienced", "note": "Torino e Milano, sede centrale"}
+  "istruzioni":  ],
+    [
     "AZIENDE: incolla nome e URL della pagina carriere. Funziona se l'URL contiene greenhouse.io, lever.co, ashbyhq.com, myworkdayjobs.com o smartrecruiters.com.",
     "PAGINE: qualsiasi altro sito 'lavora con noi'. Lo script avvisa quando la pagina cambia e mostra i nuovi link pertinenti.",
     "Dopo ogni modifica avvia 'Daily job scan' da Actions e controlla il riquadro 'Stato delle fonti' nella dashboard."

@@ -1,4 +1,65 @@
 {
-  "updated": "2026-11-16T15:05:45+00:00",
-  "sources": []
+  "updated": "2026-11-16T15:09:30+00:00",
+  "sources": [
+    {
+      "name": "State Street",
+      "url": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global",
+      "platform": "Workday",
+      "status": "errore",
+      "scanned": 0,
+      "relevant": 0,
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://statestreet.wd1.myworkdayjobs.com/wday/cxs/statestreet/Global/jobs",
+      "checked": "2026-11-16T15:09:30+00:00"
+    },
+    {
+      "name": "Deutsche Bank",
+      "url": "https://db.wd3.myworkdayjobs.com/en-US/DBWebsite",
+      "platform": "Workday",
+      "status": "errore",
+      "scanned": 0,
+      "relevant": 0,
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://db.wd3.myworkdayjobs.com/wday/cxs/db/DBWebsite/jobs",
+      "checked": "2026-11-16T15:09:30+00:00"
+    },
+    {
+      "name": "Capco",
+      "url": "https://job-boards.greenhouse.io/capco",
+      "platform": "Greenhouse",
+      "status": "ok",
+      "scanned": 696,
+      "relevant": 7,
+      "error": "",
+      "checked": "2026-11-16T15:09:30+00:00"
+    },
+    {
+      "name": "Scalapay",
+      "url": "https://job-boards.eu.greenhouse.io/scalapaysrl",
+      "platform": "Greenhouse",
+      "status": "ok",
+      "scanned": 10,
+      "relevant": 0,
+      "error": "",
+      "checked": "2026-11-16T15:09:30+00:00"
+    },
+    {
+      "name": "Satispay",
+      "url": "https://jobs.ashbyhq.com/satispay",
+      "platform": "Ashby",
+      "status": "ok",
+      "scanned": 76,
+      "relevant": 14,
+      "error": "",
+      "checked": "2026-11-16T15:09:30+00:00"
+    },
+    {
+      "name": "Qonto",
+      "url": "https://jobs.ashbyhq.com/qonto",
+      "platform": "Ashby",
+      "status": "ok",
+      "scanned": 54,
+      "relevant": 6,
+      "error": "",
+      "checked": "2026-11-16T15:09:30+00:00"
+    }
+  ]
 }

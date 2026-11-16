@@ -1,27 +1,21 @@
 {
-  "greenhouse": [
-    {
-      "name": "Capco",
-      "token": "capco",
-      "careers_url": "https://job-boards.greenhouse.io/capco"
-    }
+  "aziende": [
+    {"name": "State Street", "url": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global"},
+    {"name": "Deutsche Bank", "url": "https://db.wd3.myworkdayjobs.com/en-US/DBWebsite"},
+    {"name": "Capco", "url": "https://job-boards.greenhouse.io/capco"},
+    {"name": "Scalapay", "url": "https://job-boards.eu.greenhouse.io/scalapaysrl"},
+    {"name": "Satispay", "url": "https://jobs.ashbyhq.com/satispay"},
+    {"name": "Qonto", "url": "https://jobs.ashbyhq.com/qonto"}
   ],
-  "lever": [],
-  "ashby": [
-    {
-      "name": "Satispay",
-      "board": "satispay",
-      "careers_url": "https://jobs.ashbyhq.com/satispay"
-    },
-    {
-      "name": "Qonto",
-      "board": "qonto",
-      "careers_url": "https://jobs.ashbyhq.com/qonto"
-    }
+  "pagine": [
+    {"name": "Euronext (Euronext Securities Milan, Borsa Italiana)", "url": "https://www.euronext.com/en/about/careers/vacancies", "note": "Register & AGM, corporate actions, compliance"},
+    {"name": "ING Italia - Milano", "url": "https://careers.ing.com/it/luogo/milano-jobs/2618/3175395-3174618-3173435/4", "note": "Back office titoli, operations"},
+    {"name": "Banca del Piemonte", "url": "https://www.bancadelpiemonte.it/chi-siamo/lavora-con-noi/", "note": "Torino"},
+    {"name": "Banca d'Alba", "url": "https://zinrec.intervieweb.it/bancadalba/it/career", "note": "Piemonte"}
   ],
-  "notes": [
-    "Fonti incluse solo dopo verifica della board pubblica.",
-    "Société Générale ed Euronext sono monitorate tramite link ufficiali manuali: i loro portali non sono stati inseriti come API pubbliche in questo pacchetto.",
-    "Aggiungere altre aziende solo dopo aver verificato piattaforma, board e risposta API."
+  "istruzioni": [
+    "AZIENDE: incolla nome e URL della pagina carriere. Funziona se l'URL contiene greenhouse.io, lever.co, ashbyhq.com, myworkdayjobs.com o smartrecruiters.com.",
+    "PAGINE: qualsiasi altro sito 'lavora con noi'. Lo script avvisa quando la pagina cambia e mostra i nuovi link pertinenti.",
+    "Dopo ogni modifica avvia 'Daily job scan' da Actions e controlla il riquadro 'Stato delle fonti' nella dashboard."
   ]
 }

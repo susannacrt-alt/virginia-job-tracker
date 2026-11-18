@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T06:15:01+00:00",
+  "updated": "2026-11-18T06:19:08+00:00",
   "sources": [
     {
       "name": "State Street",
@@ -9,7 +9,7 @@
       "scanned": 0,
       "relevant": 0,
       "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://statestreet.wd1.myworkdayjobs.com/wday/cxs/statestreet/Global/jobs",
-      "checked": "2026-11-17T06:15:01+00:00"
+      "checked": "2026-11-18T06:19:08+00:00"
     },
     {
       "name": "BNY",
@@ -19,7 +19,7 @@
       "scanned": 0,
       "relevant": 0,
       "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://bnymellon.wd1.myworkdayjobs.com/wday/cxs/bnymellon/BNYMellonCareers/jobs",
-      "checked": "2026-11-17T06:15:01+00:00"
+      "checked": "2026-11-18T06:19:08+00:00"
     },
     {
       "name": "Deutsche Bank",
@@ -29,7 +29,7 @@
       "scanned": 0,
       "relevant": 0,
       "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://db.wd3.myworkdayjobs.com/wday/cxs/db/DBWebsite/jobs",
-      "checked": "2026-11-17T06:15:01+00:00"
+      "checked": "2026-11-18T06:19:08+00:00"
     },
     {
       "name": "Gruppo Sella",
@@ -39,17 +39,17 @@
       "scanned": 0,
       "relevant": 0,
       "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://sellagroup.wd3.myworkdayjobs.com/wday/cxs/sellagroup/ID01/jobs",
-      "checked": "2026-11-17T06:15:01+00:00"
+      "checked": "2026-11-18T06:19:08+00:00"
     },
     {
       "name": "Nasdaq",
       "url": "https://nasdaq.wd1.myworkdayjobs.com/en-US/Global_External_Site",
       "platform": "Workday",
-      "status": "ok",
-      "scanned": 6,
+      "status": "errore",
+      "scanned": 0,
       "relevant": 0,
-      "error": "",
-      "checked": "2026-11-17T06:15:01+00:00"
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://nasdaq.wd1.myworkdayjobs.com/wday/cxs/nasdaq/Global_External_Site/jobs",
+      "checked": "2026-11-18T06:19:08+00:00"
     },
     {
       "name": "LSEG",
@@ -59,7 +59,7 @@
       "scanned": 0,
       "relevant": 0,
       "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://lseg.wd3.myworkdayjobs.com/wday/cxs/lseg/Careers/jobs",
-      "checked": "2026-11-17T06:15:01+00:00"
+      "checked": "2026-11-18T06:19:08+00:00"
     },
     {
       "name": "Broadridge",
@@ -69,7 +69,7 @@
       "scanned": 0,
       "relevant": 0,
       "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://broadridge.wd5.myworkdayjobs.com/wday/cxs/broadridge/Careers/jobs",
-      "checked": "2026-11-17T06:15:01+00:00"
+      "checked": "2026-11-18T06:19:08+00:00"
     },
     {
       "name": "SS&C",
@@ -79,7 +79,7 @@
       "scanned": 0,
       "relevant": 0,
       "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://ssctech.wd1.myworkdayjobs.com/wday/cxs/ssctech/SSCTechnologies/jobs",
-      "checked": "2026-11-17T06:15:01+00:00"
+      "checked": "2026-11-18T06:19:08+00:00"
     },
     {
       "name": "Apex Group",
@@ -89,7 +89,7 @@
       "scanned": 0,
       "relevant": 0,
       "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://theapexgroup.wd3.myworkdayjobs.com/wday/cxs/theapexgroup/apexgroupcareers/jobs",
-      "checked": "2026-11-17T06:15:01+00:00"
+      "checked": "2026-11-18T06:19:08+00:00"
     }
   ]
 }

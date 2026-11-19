@@ -3,9 +3,9 @@
     "name": "Euronext (Euronext Securities Milan, Borsa Italiana)",
     "url": "https://www.euronext.com/en/about/careers/vacancies",
     "note": "Register & AGM, corporate actions, compliance",
-    "last_checked": "2026-11-18T06:19:08+00:00",
-    "last_changed": "2026-11-18T06:19:08+00:00",
-    "fingerprint": "0d6961273abf784d1753af1022a543fa8b9c0401e30c6bac0bd1caca199a45ff",
+    "last_checked": "2026-11-19T06:15:38+00:00",
+    "last_changed": "2026-11-19T06:15:38+00:00",
+    "fingerprint": "12101ddfb8261a82d71a314a6174bc71911ae6ca6bdc8197e9a18aad19519068",
     "known_links": [
       "APPLY for this position",
       "About",
@@ -473,9 +473,9 @@
     "name": "Intesa Sanpaolo - Experienced",
     "url": "https://group.intesasanpaolo.com/it/careers/posizioni-aperte/experienced",
     "note": "Torino e Milano, sede centrale; comprende Eurizon",
-    "last_checked": "2026-11-18T06:19:08+00:00",
-    "last_changed": "2026-11-18T06:19:08+00:00",
-    "fingerprint": "65b85fdf3dc4562088cf386896b1cc67de166d9eae78c91512dd59492346d797",
+    "last_checked": "2026-11-19T06:15:38+00:00",
+    "last_changed": "2026-11-19T06:15:38+00:00",
+    "fingerprint": "456ec4d0694d4a11ec37837c05e700aa1d070891202c9dac294370a7a6d69464",
     "known_links": [
       "AML - CFT",
       "Adesione agli Equator Principles",
@@ -748,7 +748,7 @@
     "name": "FinecoBank",
     "url": "https://about.finecobank.com/it/careers/diventa-un-dipendente/",
     "note": "Milano",
-    "last_checked": "2026-11-18T06:19:08+00:00",
+    "last_checked": "2026-11-19T06:15:38+00:00",
     "last_changed": "2026-11-16T16:07:40+00:00",
     "fingerprint": "c435e0cbbc59c98da48326f23f92b033e8731edd5f3b02a006760af5fea7d5d7",
     "known_links": [
@@ -781,7 +781,7 @@
     "name": "Banco BPM",
     "url": "https://gruppo.bancobpm.it/persone-e-valori/lavora-con-noi/curriculum/",
     "note": "Milano; portale InRecruiting",
-    "last_checked": "2026-11-18T06:19:08+00:00",
+    "last_checked": "2026-11-19T06:15:38+00:00",
     "last_changed": "2026-11-16T16:07:40+00:00",
     "fingerprint": "5ec3756be2fefe080397938b182089327c2aa0cad3c92aaec8e046237eaf3a46",
     "known_links": [
@@ -836,7 +836,7 @@
     "name": "Generali Investments",
     "url": "https://www.generali-investments.com/it/it/institutional/careers/",
     "note": "Asset management",
-    "last_checked": "2026-11-18T06:19:08+00:00",
+    "last_checked": "2026-11-19T06:15:38+00:00",
     "last_changed": "2026-11-16T16:07:40+00:00",
     "fingerprint": "b64197c5541e30740c1710e8947aeffb17b3d498d96ffc1f1de474f1386db3cf",
     "known_links": [
@@ -895,9 +895,9 @@
     "name": "Amundi Italia",
     "url": "https://jobs.amundi.com/pages/offre/listeoffre.aspx?lcid=2057&facet_Country=103&showSearchUrl=1",
     "note": "Asset management, Milano",
-    "last_checked": "2026-11-18T06:19:08+00:00",
-    "last_changed": "2026-11-18T06:19:08+00:00",
-    "fingerprint": "d4b6a82401524855a012a4cebcfd5c6588546de5f6e6921c53abc5d98ba72f23",
+    "last_checked": "2026-11-19T06:15:38+00:00",
+    "last_changed": "2026-11-19T06:15:38+00:00",
+    "fingerprint": "d50145ace926a37c9f041618d2ad3883e6fa54c9add91ea7b246665f49914ef3",
     "known_links": [
       "Accessibility",
       "Configure your cookies",
@@ -930,15 +930,14 @@
     "name": "ING Italia - Milano",
     "url": "https://careers.ing.com/it/luogo/milano-jobs/2618/3175395-3174618-3173435/4",
     "note": "Back office titoli, operations",
-    "last_checked": "2026-11-18T06:19:08+00:00",
-    "last_changed": "2026-11-18T06:19:08+00:00",
-    "fingerprint": "3defbd3b18173da05968c1e884345c965e68f4c956374a15415d0cd3f8a5e3a5",
+    "last_checked": "2026-11-19T06:15:38+00:00",
+    "last_changed": "2026-11-19T06:15:38+00:00",
+    "fingerprint": "d28c70c488856a476a931379039bf9c5c351a6dc8e1e894cc87e4abc564f6612",
     "known_links": [
       "AI Lead",
       "About ING",
       "Agente in attività finanziaria - Lazio",
       "Agente in attività finanziaria - Lombardia",
-      "Business Reporting Specialist",
       "Carriere iniziali",
       "Consulente Finanziario",
       "Consulente Finanziario - Percorso Professional",
@@ -968,6 +967,7 @@
       "LinkedIn",
       "Locations",
       "Mappa del sito",
+      "Market Risk Specialist",
       "Mortgages Product Expert",
       "Nederlands Dutch",
       "PAID MEDIA SPECIALIST",
@@ -990,6 +990,11 @@
     ],
     "new_links": [
       {
+        "text": "Market Risk Specialist",
+        "url": "https://careers.ing.com/it/lavoro/milano/market-risk-specialist/3121/47018979456",
+        "found": "2026-11-19T06:15:38+00:00"
+      },
+      {
         "text": "PAID MEDIA SPECIALIST",
         "url": "https://careers.ing.com/it/lavoro/milano/paid-media-specialist/3121/45314691648",
         "found": "2026-11-18T06:19:08+00:00"
@@ -1002,7 +1007,7 @@
     "name": "Banca del Piemonte",
     "url": "https://www.bancadelpiemonte.it/chi-siamo/lavora-con-noi/",
     "note": "Torino",
-    "last_checked": "2026-11-18T06:19:08+00:00",
+    "last_checked": "2026-11-19T06:15:38+00:00",
     "last_changed": "2026-11-16T16:07:40+00:00",
     "fingerprint": "69b15d8394832f3af27f0fe6216226c7f4a9544d214c3cba01724fe6b5fa26d6",
     "known_links": [
@@ -1133,7 +1138,7 @@
     "name": "Banca d'Alba",
     "url": "https://zinrec.intervieweb.it/bancadalba/it/career",
     "note": "Piemonte",
-    "last_checked": "2026-11-18T06:19:08+00:00",
+    "last_checked": "2026-11-19T06:15:38+00:00",
     "last_changed": "2026-11-16T20:22:03+00:00",
     "fingerprint": "9900fb4d919d35571d4b02f397c3eecb6b831052fd5e4f7e491a71874fec5433",
     "known_links": [

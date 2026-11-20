@@ -1,5 +1,85 @@
 [
   {
+    "id": "c52bf46c02415a43",
+    "title": "Specialista gestione sinistri e contrattualistica assicurativa",
+    "company": "Gruppo Iren",
+    "location": "Torino, Piemonte, Italia",
+    "url": "https://www.linkedin.com/jobs/view/4485815056",
+    "description": "",
+    "source": "LinkedIn",
+    "online": true,
+    "salary": "RAL da verificare",
+    "contract": "Contratto da verificare",
+    "work_mode": "Modalità da verificare",
+    "score": 27,
+    "matched_terms": [
+      "specialist",
+      "specialista"
+    ],
+    "first_seen": "2026-11-20T06:48:20.884Z",
+    "status": "Nuova"
+  },
+  {
+    "id": "f3ce529ec0b1dcaf",
+    "title": "PMO - Finance",
+    "company": "Aeonvis S.p.A.",
+    "location": "Milano",
+    "url": "https://www.linkedin.com/jobs/view/4478470265",
+    "description": "",
+    "source": "LinkedIn",
+    "online": true,
+    "salary": "RAL da verificare",
+    "contract": "Contratto da verificare",
+    "work_mode": "Modalità da verificare",
+    "score": 36,
+    "matched_terms": [
+      "pmo"
+    ],
+    "first_seen": "2026-11-20T06:48:20.884Z",
+    "status": "Nuova"
+  },
+  {
+    "id": "23c2ad97358de101",
+    "title": "Project Manager/Analista di Organizzazione",
+    "company": "Banca Mediolanum",
+    "location": "Basiglio",
+    "url": "https://www.linkedin.com/jobs/view/4474621117",
+    "description": "",
+    "source": "LinkedIn",
+    "online": true,
+    "salary": "RAL da verificare",
+    "contract": "Contratto da verificare",
+    "work_mode": "Modalità da verificare",
+    "score": 33,
+    "matched_terms": [
+      "project manager",
+      "organizzazione",
+      "analista"
+    ],
+    "first_seen": "2026-11-20T06:48:20.884Z",
+    "status": "Nuova"
+  },
+  {
+    "id": "bc13ce40d9bbe180",
+    "title": "IT Business Analyst",
+    "company": "Zurich Insurance",
+    "location": "Milano",
+    "url": "https://www.linkedin.com/jobs/view/4483625342",
+    "description": "",
+    "source": "LinkedIn",
+    "online": true,
+    "salary": "RAL da verificare",
+    "contract": "Contratto da verificare",
+    "work_mode": "Modalità da verificare",
+    "score": 27,
+    "matched_terms": [
+      "business analyst",
+      "analyst"
+    ],
+    "first_seen": "2026-11-20T06:48:20.884Z",
+    "status": "Nuova"
+  },
+  {
     "id": "4eb88e1ad31ebb77",
     "title": "Operations Specialist",
     "company": "Banca AideXa",

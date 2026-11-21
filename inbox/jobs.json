@@ -1,5 +1,43 @@
 [
   {
+    "id": "771e810eb1fdb675",
+    "title": "Operations Broker",
+    "company": "Groupama Assicurazioni",
+    "location": "Milano, Lombardia, Italia",
+    "url": "https://www.linkedin.com/jobs/view/4470453864",
+    "description": "",
+    "source": "LinkedIn",
+    "online": true,
+    "salary": "RAL da verificare",
+    "contract": "Contratto da verificare",
+    "work_mode": "Modalità da verificare",
+    "score": 21,
+    "matched_terms": [
+      "operations"
+    ],
+    "first_seen": "2026-11-21T06:48:19.433Z",
+    "status": "Nuova"
+  },
+  {
+    "id": "f563f164cefec818",
+    "title": "Borsa Italiana- Client Services and Support Analyst",
+    "company": "Euronext",
+    "location": "Milano",
+    "url": "https://www.linkedin.com/jobs/view/4443520843",
+    "description": "",
+    "source": "LinkedIn",
+    "online": true,
+    "salary": "RAL da verificare",
+    "contract": "Contratto da verificare",
+    "work_mode": "Modalità da verificare",
+    "score": 21,
+    "matched_terms": [
+      "analyst"
+    ],
+    "first_seen": "2026-11-21T06:48:19.433Z",
+    "status": "Nuova"
+  },
+  {
     "id": "c52bf46c02415a43",
     "title": "Specialista gestione sinistri e contrattualistica assicurativa",
     "company": "Gruppo Iren",

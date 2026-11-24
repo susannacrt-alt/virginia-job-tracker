@@ -1,5 +1,44 @@
 [
   {
+    "id": "3a9dd1f3503a871c",
+    "title": "Public Funding Finance Manager",
+    "company": "Axelera AI",
+    "location": "Milano",
+    "url": "https://www.linkedin.com/jobs/view/4489956997",
+    "description": "",
+    "source": "LinkedIn",
+    "online": true,
+    "salary": "RAL da verificare",
+    "contract": "Contratto da verificare",
+    "work_mode": "Modalità da verificare",
+    "score": 36,
+    "matched_terms": [
+      "fund"
+    ],
+    "first_seen": "2026-11-24T06:48:20.825Z",
+    "status": "Nuova"
+  },
+  {
+    "id": "af43c262ab76fe09",
+    "title": "Business Process Analyst",
+    "company": "Guber Banca",
+    "location": "20121",
+    "url": "https://www.linkedin.com/jobs/view/4492915876",
+    "description": "",
+    "source": "LinkedIn",
+    "online": true,
+    "salary": "RAL da verificare",
+    "contract": "Contratto da verificare",
+    "work_mode": "Modalità da verificare",
+    "score": 27,
+    "matched_terms": [
+      "process",
+      "analyst"
+    ],
+    "first_seen": "2026-11-24T06:48:20.825Z",
+    "status": "Nuova"
+  },
+  {
     "id": "771e810eb1fdb675",
     "title": "Operations Broker",
     "company": "Groupama Assicurazioni",
@@ -135,7 +174,7 @@
       "specialist"
     ],
     "first_seen": "2026-11-16T21:04:14.133Z",
-    "status": "Nuova"
+    "status": "In archivio"
   },
   {
     "id": "7e5f937c964d5717",
@@ -157,7 +196,7 @@
       "specialista"
     ],
     "first_seen": "2026-11-16T21:04:14.133Z",
-    "status": "Nuova"
+    "status": "In archivio"
   },
   {
     "id": "1871235b3b673f1b",
@@ -177,7 +216,7 @@
       "specialist"
     ],
     "first_seen": "2026-11-16T21:04:14.133Z",
-    "status": "Nuova"
+    "status": "In archivio"
   },
   {
     "id": "47e296589efb3fca",
@@ -198,7 +237,7 @@
       "specialist"
     ],
     "first_seen": "2026-11-16T21:04:14.133Z",
-    "status": "Nuova"
+    "status": "In archivio"
   },
   {
     "id": "4c3c11d83b0ae098",
@@ -219,7 +258,7 @@
       "analista"
     ],
     "first_seen": "2026-11-16T21:04:14.133Z",
-    "status": "Nuova"
+    "status": "In archivio"
   },
   {
     "id": "e699b3d46d6c108b",
@@ -238,7 +277,7 @@
       "analyst"
     ],
     "first_seen": "2026-11-16T21:04:14.133Z",
-    "status": "Nuova"
+    "status": "In archivio"
   },
   {
     "id": "6f184bd1e53341e9",
@@ -257,7 +296,7 @@
       "specialist"
     ],
     "first_seen": "2026-11-16T21:04:14.133Z",
-    "status": "Nuova"
+    "status": "In archivio"
   },
   {
     "id": "75a6c92445c1c91d",
@@ -277,7 +316,7 @@
       "specialist"
     ],
     "first_seen": "2026-11-16T21:04:14.133Z",
-    "status": "Nuova"
+    "status": "In archivio"
   },
   {
     "id": "fd4697e65371bb52",
@@ -297,7 +336,7 @@
       "specialist"
     ],
     "first_seen": "2026-11-16T21:04:14.133Z",
-    "status": "Nuova"
+    "status": "In archivio"
   },
   {
     "id": "c47b4c7459ee7dc8",
@@ -317,7 +356,7 @@
       "specialist"
     ],
     "first_seen": "2026-11-16T21:04:14.133Z",
-    "status": "Nuova"
+    "status": "In archivio"
   },
   {
     "id": "cf86d0264df05e9c",
@@ -337,7 +376,7 @@
       "analyst"
     ],
     "first_seen": "2026-11-16T21:04:14.133Z",
-    "status": "Nuova"
+    "status": "In archivio"
   },
   {
     "id": "a7275ed850472cf1",
@@ -356,7 +395,7 @@
       "specialist"
     ],
     "first_seen": "2026-11-16T21:04:14.133Z",
-    "status": "Nuova"
+    "status": "In archivio"
   },
   {
     "id": "ceef803506201dd1",
@@ -376,7 +415,7 @@
       "analyst"
     ],
     "first_seen": "2026-11-16T21:04:14.133Z",
-    "status": "Nuova"
+    "status": "In archivio"
   },
   {
     "id": "118a158013c58a54",
@@ -395,7 +434,7 @@
       "analyst"
     ],
     "first_seen": "2026-11-16T21:04:14.133Z",
-    "status": "Nuova"
+    "status": "In archivio"
   },
   {
     "id": "6e627f72c17a7357",
@@ -416,7 +455,7 @@
       "specialista"
     ],
     "first_seen": "2026-11-16T21:04:14.133Z",
-    "status": "Nuova"
+    "status": "In archivio"
   },
   {
     "id": "0770a88eb68c6684",
@@ -435,7 +474,7 @@
       "specialist"
     ],
     "first_seen": "2026-11-16T21:04:14.133Z",
-    "status": "Nuova"
+    "status": "In archivio"
   },
   {
     "id": "cd3db9a2f73f28bb",
@@ -454,7 +493,7 @@
       "specialist"
     ],
     "first_seen": "2026-11-16T21:04:14.133Z",
-    "status": "Nuova"
+    "status": "In archivio"
   },
   {
     "id": "73a8e1697de49d18",
@@ -473,7 +512,7 @@
       "specialist"
     ],
     "first_seen": "2026-11-16T21:04:14.133Z",
-    "status": "Nuova"
+    "status": "In archivio"
   },
   {
     "id": "cafce27ed10dada9",
@@ -492,7 +531,7 @@
       "fund"
     ],
     "first_seen": "2026-11-16T21:04:14.133Z",
-    "status": "Nuova"
+    "status": "In archivio"
   },
   {
     "id": "e868456a96cfd136",
@@ -511,7 +550,7 @@
       "specialist"
     ],
     "first_seen": "2026-11-16T21:04:14.133Z",
-    "status": "Nuova"
+    "status": "In archivio"
   },
   {
     "id": "bd0aed61fe2213ca",
@@ -530,7 +569,7 @@
       "specialist"
     ],
     "first_seen": "2026-11-16T21:04:14.133Z",
-    "status": "Nuova"
+    "status": "In archivio"
   },
   {
     "id": "460f220d6ab79a39",
@@ -549,6 +588,6 @@
       "specialist"
     ],
     "first_seen": "2026-11-16T21:04:14.133Z",
-    "status": "Nuova"
+    "status": "In archivio"
   }
 ]

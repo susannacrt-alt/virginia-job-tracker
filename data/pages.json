@@ -3,9 +3,9 @@
     "name": "Euronext (Euronext Securities Milan, Borsa Italiana)",
     "url": "https://www.euronext.com/en/about/careers/vacancies",
     "note": "Register & AGM, corporate actions, compliance",
-    "last_checked": "2026-11-26T06:11:38+00:00",
-    "last_changed": "2026-11-26T06:11:38+00:00",
-    "fingerprint": "8bd70e89cc55fd2e5f9eca3eaca96494ea6f647421be087af5de1707d7457368",
+    "last_checked": "2026-11-27T06:17:20+00:00",
+    "last_changed": "2026-11-27T06:17:20+00:00",
+    "fingerprint": "ed0238eab34327453f52eb0f1d0200c1229a8dd28de1b23e819d8a0dece8b4e2",
     "known_links": [
       "APPLY for this position",
       "About",
@@ -215,7 +215,6 @@
       "Index data",
       "Index licensing for benchmarking",
       "Index licensing for products",
-      "Index products",
       "Indices",
       "Information for",
       "Initial public offer (IPO)",
@@ -473,9 +472,9 @@
     "name": "Intesa Sanpaolo - Experienced",
     "url": "https://group.intesasanpaolo.com/it/careers/posizioni-aperte/experienced",
     "note": "Torino e Milano, sede centrale; comprende Eurizon",
-    "last_checked": "2026-11-26T06:11:38+00:00",
-    "last_changed": "2026-11-26T06:11:38+00:00",
-    "fingerprint": "456ec4d0694d4a11ec37837c05e700aa1d070891202c9dac294370a7a6d69464",
+    "last_checked": "2026-11-27T06:17:20+00:00",
+    "last_changed": "2026-11-27T06:17:20+00:00",
+    "fingerprint": "65b85fdf3dc4562088cf386896b1cc67de166d9eae78c91512dd59492346d797",
     "known_links": [
       "AML - CFT",
       "Adesione agli Equator Principles",
@@ -748,7 +747,7 @@
     "name": "FinecoBank",
     "url": "https://about.finecobank.com/it/careers/diventa-un-dipendente/",
     "note": "Milano",
-    "last_checked": "2026-11-26T06:11:38+00:00",
+    "last_checked": "2026-11-27T06:17:20+00:00",
     "last_changed": "2026-11-16T16:07:40+00:00",
     "fingerprint": "c435e0cbbc59c98da48326f23f92b033e8731edd5f3b02a006760af5fea7d5d7",
     "known_links": [
@@ -781,7 +780,7 @@
     "name": "Banco BPM",
     "url": "https://gruppo.bancobpm.it/persone-e-valori/lavora-con-noi/curriculum/",
     "note": "Milano; portale InRecruiting",
-    "last_checked": "2026-11-26T06:11:38+00:00",
+    "last_checked": "2026-11-27T06:17:20+00:00",
     "last_changed": "2026-11-25T06:12:59+00:00",
     "fingerprint": "7829ea7ab19b0189e27f28e2f58a28d02edf07cf5a1cf7643dbc81d6683a10d2",
     "known_links": [
@@ -837,7 +836,7 @@
     "name": "Generali Investments",
     "url": "https://www.generali-investments.com/it/it/institutional/careers/",
     "note": "Asset management",
-    "last_checked": "2026-11-26T06:11:38+00:00",
+    "last_checked": "2026-11-27T06:17:20+00:00",
     "last_changed": "2026-11-16T16:07:40+00:00",
     "fingerprint": "b64197c5541e30740c1710e8947aeffb17b3d498d96ffc1f1de474f1386db3cf",
     "known_links": [
@@ -896,9 +895,9 @@
     "name": "Amundi Italia",
     "url": "https://jobs.amundi.com/pages/offre/listeoffre.aspx?lcid=2057&facet_Country=103&showSearchUrl=1",
     "note": "Asset management, Milano",
-    "last_checked": "2026-11-26T06:11:38+00:00",
-    "last_changed": "2026-11-26T06:11:38+00:00",
-    "fingerprint": "0beb0639ab931d9bfaa013f45873a0f9ff142ab88458c6a11f3d7d925269f63b",
+    "last_checked": "2026-11-27T06:17:20+00:00",
+    "last_changed": "2026-11-27T06:17:20+00:00",
+    "fingerprint": "98e39692be2ed16483ab64abf27121904408e8cb5e4cb70db6df2bee6f7354d1",
     "known_links": [
       "Accessibility",
       "Configure your cookies",
@@ -912,9 +911,11 @@
       "Investment communication & content marketing internship M/F",
       "Legal notices",
       "Lombardy (1)",
+      "Middle&Back Office Specialits M/F",
       "Our vision of Human Resources",
       "RSS and other feeds",
       "RSS feeds",
+      "Reporting specialist M/F",
       "Save",
       "Searches, alerts",
       "Selection: 0 vacancy(s)",
@@ -923,7 +924,18 @@
       "View all vacancies",
       "» Display the search url"
     ],
-    "new_links": [],
+    "new_links": [
+      {
+        "text": "Reporting specialist M/F",
+        "url": "https://jobs.amundi.com/job/job-reporting-specialist-m-f_117822.aspx",
+        "found": "2026-11-27T06:17:20+00:00"
+      },
+      {
+        "text": "Middle&Back Office Specialits M/F",
+        "url": "https://jobs.amundi.com/job/job-middle-back-office-specialits-m-f_117821.aspx",
+        "found": "2026-11-27T06:17:20+00:00"
+      }
+    ],
     "status": "ok",
     "error": ""
   },
@@ -931,20 +943,20 @@
     "name": "ING Italia - Milano",
     "url": "https://careers.ing.com/it/luogo/milano-jobs/2618/3175395-3174618-3173435/4",
     "note": "Back office titoli, operations",
-    "last_checked": "2026-11-26T06:11:38+00:00",
-    "last_changed": "2026-11-26T06:11:38+00:00",
-    "fingerprint": "9c222f43657f121711f368d652c7a7600d080ce6a46b4a7ab26eb2e2cd9acb2b",
+    "last_checked": "2026-11-27T06:17:20+00:00",
+    "last_changed": "2026-11-27T06:17:20+00:00",
+    "fingerprint": "250fd63c5707fc0bffdd628b31185d722448f11829845479c061d9912d389006",
     "known_links": [
       "About ING",
       "Agente in attività finanziaria - Lazio",
       "Agente in attività finanziaria - Lombardia",
-      "Business Reporting Specialist",
       "Cards Manager Operations",
       "Carriere iniziali",
       "Consulente Finanziario",
       "Consulente Finanziario - Percorso Professional",
       "Cookie management",
       "Credit Risk Model Developer (IRB & IFRS9)",
+      "Customer Journey Expert (Human Sales & Interactions – Fast Line & Concierge)",
       "Deutsch German",
       "Digital Analytics Lead",
       "Diversity, Inclusion & Belonging",
@@ -969,9 +981,9 @@
       "LinkedIn",
       "Locations",
       "Mappa del sito",
-      "Mortgages Product Expert",
       "Nederlands Dutch",
       "OPS Engineer – Network (Maternity Leave)",
+      "PAID MEDIA SPECIALIST",
       "Payments Contract & Partner Management Senior Expert",
       "Polski Polish",
       "Precedente",
@@ -990,6 +1002,11 @@
       "YouTube"
     ],
     "new_links": [
+      {
+        "text": "PAID MEDIA SPECIALIST",
+        "url": "https://careers.ing.com/it/lavoro/milano/paid-media-specialist/3121/45314691648",
+        "found": "2026-11-27T06:17:20+00:00"
+      },
       {
         "text": "PAID MEDIA SPECIALIST",
         "url": "https://careers.ing.com/it/lavoro/milano/paid-media-specialist/3121/45314691648",
@@ -1023,7 +1040,7 @@
     "name": "Banca del Piemonte",
     "url": "https://www.bancadelpiemonte.it/chi-siamo/lavora-con-noi/",
     "note": "Torino",
-    "last_checked": "2026-11-26T06:11:38+00:00",
+    "last_checked": "2026-11-27T06:17:20+00:00",
     "last_changed": "2026-11-16T16:07:40+00:00",
     "fingerprint": "69b15d8394832f3af27f0fe6216226c7f4a9544d214c3cba01724fe6b5fa26d6",
     "known_links": [
@@ -1154,7 +1171,7 @@
     "name": "Banca d'Alba",
     "url": "https://zinrec.intervieweb.it/bancadalba/it/career",
     "note": "Piemonte",
-    "last_checked": "2026-11-26T06:11:38+00:00",
+    "last_checked": "2026-11-27T06:17:20+00:00",
     "last_changed": "2026-11-16T20:22:03+00:00",
     "fingerprint": "9900fb4d919d35571d4b02f397c3eecb6b831052fd5e4f7e491a71874fec5433",
     "known_links": [

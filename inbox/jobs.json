@@ -1,5 +1,43 @@
 [
   {
+    "id": "12d5f7e5e64e8be7",
+    "title": "Business Transformation Specialist - Investment (f/m/x)",
+    "company": "Deutsche Bank",
+    "location": "Milano",
+    "url": "https://www.linkedin.com/jobs/view/4487524464",
+    "description": "",
+    "source": "LinkedIn",
+    "online": true,
+    "salary": "RAL da verificare",
+    "contract": "Contratto da verificare",
+    "work_mode": "Modalità da verificare",
+    "score": 36,
+    "matched_terms": [
+      "specialist"
+    ],
+    "first_seen": "2026-11-28T06:48:19.168Z",
+    "status": "Nuova"
+  },
+  {
+    "id": "2fc5dfeefb8a0905",
+    "title": "Senior Specialist - Controlli Operativi",
+    "company": "Anima Sgr",
+    "location": "Milano",
+    "url": "https://www.linkedin.com/jobs/view/4470625241",
+    "description": "",
+    "source": "LinkedIn",
+    "online": true,
+    "salary": "RAL da verificare",
+    "contract": "Contratto da verificare",
+    "work_mode": "Modalità da verificare",
+    "score": 36,
+    "matched_terms": [
+      "specialist"
+    ],
+    "first_seen": "2026-11-28T06:48:19.168Z",
+    "status": "Nuova"
+  },
+  {
     "id": "8ab5f154755b6184",
     "title": "IT Business Analyst Area Assicurativa (BIN)",
     "company": "Herzum",
@@ -114,7 +152,7 @@
       "specialista"
     ],
     "first_seen": "2026-11-20T06:48:20.884Z",
-    "status": "Nuova"
+    "status": "In archivio"
   },
   {
     "id": "f3ce529ec0b1dcaf",
@@ -133,7 +171,7 @@
       "pmo"
     ],
     "first_seen": "2026-11-20T06:48:20.884Z",
-    "status": "Nuova"
+    "status": "In archivio"
   },
   {
     "id": "23c2ad97358de101",
@@ -154,7 +192,7 @@
       "analista"
     ],
     "first_seen": "2026-11-20T06:48:20.884Z",
-    "status": "Nuova"
+    "status": "In archivio"
   },
   {
     "id": "bc13ce40d9bbe180",
@@ -174,7 +212,7 @@
       "analyst"
     ],
     "first_seen": "2026-11-20T06:48:20.884Z",
-    "status": "Nuova"
+    "status": "In archivio"
   },
   {
     "id": "4eb88e1ad31ebb77",
